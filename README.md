@@ -1,4 +1,4 @@
-<h1 align="center">Cheat-Sheet-Angular</h1>
+<h1 align="center">Guide to initialize an angular project</h1>
 
 <h2>How to initialize an Angular project</h2>
 
