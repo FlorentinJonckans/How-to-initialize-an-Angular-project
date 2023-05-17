@@ -1,6 +1,6 @@
 <h1 align="center">Cheat-Sheet-Angular</h1>
 
-<h2>How to make an Angular project</h2>
+<h2>How to initialize an Angular project</h2>
 
 First of all, this cheat-sheet is for people working on a Linux environment.
 
