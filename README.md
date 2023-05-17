@@ -87,3 +87,22 @@ export class AppModule { }
 ```
 
 <h3>6 - Check the rooting if it's working</h3>
+
+You've done a great job so far but don't quit this help right away, you have to make sure that the routing is working correctly.
+
+Go to the directory where the `app.component.html` file is located and add: 
+
+```html
+<nav></nav>
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
+<footer></footer>
+```
+
+Thank you for following this guide until the end, do not hesitate to share this guide if you liked it and follow me.
+
+
+
+
+
