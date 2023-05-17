@@ -4,7 +4,7 @@
 
 First of all, this guide is for people working on a Linux environment.
 
-<h3>1 - Install Angular CLI</h3>
+<h3>1 - Install <a href="https://angular.io/cli">Angular CLI</a></h3>
 
 Install the Angular CLI by using the npm package manager:
 
