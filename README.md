@@ -2,7 +2,7 @@
 
 <h2>How to make an Angular project</h2>
 
-First, this cheat-sheet is for people working on a Linux environment.
+First of all, this cheat-sheet is for people working on a Linux environment.
 
 <h3>1 - Install Angular CLI</h3>
 
@@ -40,8 +40,50 @@ For example: `http://localhost:4200/`
 
 <h3>4 - Create your first component in your project</h3>
 
+Before adding a component to your project, you must be sure to be at the root directory of your project.
+
+Then, to create your first component you will have to use:
+
+`ng generate component component-name`
+
+This line of code can be simplified by:
+
+`ng g c component-name`
+
+Here is an example of creating a component : `ng g c about`
 
 <h3>5 - Root the component</h3>
 
+We are now going to move on to a complicated part of an Angular project, the routing.
+
+First, move through your folders to find the `app-module.ts` file:
+
+`cd src/app/app-module.ts`
+
+You will have to import your component that you created earlier in your `app-module.ts` file and then, add informations about your `@NgModule`:
+
+```js
+import { AboutComponent } from './about/about.component';
+
+   @NgModule({
+       declarations: [
+         AppComponent,
+         AboutComponent
+       ],
+       imports: [
+           BrowserModule,
+           AppRoutingModule,
+           RouterModule.forRoot([
+      {
+        path: 'about',
+        component: AboutComponent
+      }
+      ])
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
 <h3>6 - Check the rooting if it's working</h3>
