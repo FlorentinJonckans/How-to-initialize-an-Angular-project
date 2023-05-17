@@ -60,7 +60,7 @@ First, move through your folders to find the `app-module.ts` file:
 
 `cd src/app/app-module.ts`
 
-You will have to import your component that you created earlier in your `app-module.ts` file and then, add informations about your `@NgModule`:
+You will have to import your component that you created earlier in your `app-module.ts` file and then, add informations about your [@NgModule](https://angular.io/guide/ngmodules):
 
 ```js
 import { AboutComponent } from './about/about.component';
