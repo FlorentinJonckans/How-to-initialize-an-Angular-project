@@ -38,7 +38,7 @@ If you've followed everything so far, your terminal should send you to a local s
 
 For example: `http://localhost:4200/`
 
-<h3>4 - Create your first component in your project</h3>
+<h3>4 - Create your first <a href="https://angular.io/api/core/Component">component</a> in your project</h3>
 
 Before adding a component to your project, you must be sure to be at the root directory of your project.
 
