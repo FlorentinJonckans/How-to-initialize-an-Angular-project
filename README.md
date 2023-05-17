@@ -2,7 +2,7 @@
 
 <h2>How to initialize an Angular project</h2>
 
-First of all, this cheat-sheet is for people working on a Linux environment.
+First of all, this guide is for people working on a Linux environment.
 
 <h3>1 - Install Angular CLI</h3>
 
