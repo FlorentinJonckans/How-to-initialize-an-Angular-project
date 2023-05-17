@@ -26,7 +26,17 @@ There is also a command that allows you to create an Angular project, however, y
 
 <h3>3 - Test your project</h3>
 
+Before testing your project, you must first go to the root directory of your project:
 
+`cd my-angular-app/`
+
+And then, you will have to build your application and serve it locally, the server automatically rebuilds the application and reloads the page when you change any of the source files.
+
+`ng serve --open` or just `ng serve`
+
+If you've followed everything so far, your terminal should send you to a local server to preview your application.
+
+For example: `http://localhost:4200/`
 
 <h3>4 - Create your first component in your project</h3>
 
