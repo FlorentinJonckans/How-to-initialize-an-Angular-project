@@ -54,7 +54,7 @@ Here is an example of creating a component : `ng g c about`
 
 <h3>5 - Root the component</h3>
 
-We are now going to move on to a complicated part of an Angular project, the routing.
+We are now going to move on to a complicated part of an Angular project, the [routing](https://angular.io/guide/router).
 
 First, move through your folders to find the `app-module.ts` file:
 
