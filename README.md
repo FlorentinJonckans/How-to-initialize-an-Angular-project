@@ -12,7 +12,7 @@ Install the Angular CLI by using the npm package manager:
 
 <h3>2 - Create the initial base of an Angular project</h3>
 
-After installing your Angular Cli, you will finally be able to create the beginnings of the creation of your first Angular project.
+After installing your Angular Cli, you will finally be able to create the beginnings of the creation of your first [Angular](https://angular.io/docs) project.
 
 To start with, you will have to create your Angular project :
 
