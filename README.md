@@ -100,7 +100,7 @@ Go to the directory where the `app.component.html` file is located and add:
 <footer></footer>
 ```
 
-Thank you for following this guide until the end, do not hesitate to share this guide if you liked it and follow me.
+Thank you for following this guide until the end, do not hesitate to share this guide with everyone you know if you liked it and follow me.
 
 
 
