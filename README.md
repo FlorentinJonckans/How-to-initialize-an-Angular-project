@@ -52,6 +52,30 @@ This line of code can be simplified by:
 
 Here is an example of creating a component : `ng g c about`
 
+As you can see on your `about.component.ts`:
+
+```js
+mport { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
+})
+export class AboutComponent {
+
+}
+```
+
+You got a selector named `selector: 'app-about'`. When you return to `app.component.html` and add your selector like this :
+
+```html
+<p>HELLO WORLD !!!</p>
+<app-about></app-about>
+```
+
+You will see your `about.component.html` has been called in your `app.component.html`.
+
 <h3>5 - Root the component</h3>
 
 We are now going to move on to a complicated part of an Angular project, the [routing](https://angular.io/guide/router).
