@@ -55,7 +55,7 @@ Here is an example of creating a component : `ng g c about`
 As you can see on your `about.component.ts`:
 
 ```js
-mport { Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
